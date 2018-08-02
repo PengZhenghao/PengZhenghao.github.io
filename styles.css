@@ -71,12 +71,11 @@ border-radius: 50%;
 }
 
 /** @group skills **/
-/*#skills-left { display: block; float: left; margin-right: 30px; }
-#skills-right { display: block; float: left;}
-*/
-/** @group clearfix **/
+#skills-left { display: block; float: left; width: 50%;}
+#skills-right { display: block; float: left; width: 50%;}
+
 .clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
-.clearfix { display: inline-block; }
+/*.clearfix { display: inline-block; }*/
 .caption { text-align: right; float: right; font-style: italic; }
 .sign {height: 4em; white-space: nowrap;}
 html[xmlns] .clearfix { display: block; }
