@@ -5,7 +5,7 @@ body { background: #f2f2f2 url('images/pattern-bg.png');
 width : 73%;
 position: relative;
 	margin:0 auto;
-	font-size: 12px;
+	font-size: 65%;
 	padding-top: 10em;
 	padding-bottom: 10%; 
 	background-position : center; 
@@ -34,6 +34,31 @@ img.sign {
 height: 1.2em;
 padding-top: 0.1em;}
 
+table {
+	margin:0 auto;
+	padding-left: 0;
+	padding-right: 0;
+	font-weight: normal;
+	line-height: 1.6em; 
+	font-family: "Baskerville", "Baskerville Old Face", "Balthazar", "Droid Serif", serif; 
+	color: #565656; 
+	font-size: 1.4em; }
+
+table th {
+	padding-right: 1em;
+	text-align: right;
+	font-weight: normal;
+	padding-bottom: 0.5em;
+}
+table td {
+	padding-left: 1em;
+	text-align: left;
+	font-weight: normal;
+	padding-bottom: 0.5em;
+	/*float: left;*/
+}
+
+
 a { color: #5582d6; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
@@ -55,7 +80,7 @@ header { width: 100%; }
 
 /** @group personal settings **/
 #info { float: center; margin-bottom: 8em; }
-#photo { float: right; margin-top: 1em; width: 30%;}
+#photo { float: right; margin-top: 1em; width: 30%;padding-right: 3%;}
 #photo img { 
 width: 100%;
 -webkit-border-radius: 3px;
@@ -71,11 +96,11 @@ border-radius: 50%;
 }
 
 /** @group skills **/
-#skills-left { display: block; float: left; width: 50%;}
-#skills-right { display: block; float: left; width: 50%;}
+#skills-left { display: block; float: left; width: 35%;text-align: right; white-space: nowrap;}
+#skills-right { display: block; float: right; width: 55%; text-align: left;white-space: nowrap;}
 
-.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
-/*.clearfix { display: inline-block; }*/
+/*.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }*/
 .caption { text-align: right; float: right; font-style: italic; }
 .sign {height: 4em; white-space: nowrap;}
 html[xmlns] .clearfix { display: block; }
