@@ -1,10 +1,10 @@
 @media only screen and (max-width: 1200px) {
-	body {width: 78%; font-size: 65%;}
+	body {width: 80%; font-size: 65%;}
 	h1 {font-size: 3.0em;}
 }
 
 @media only screen and (max-width: 960px) {
-	body {font-size: 65%;width: 85%;}
+	body {font-size: 65%;width: 90%;}
 	h1 {font-size: 2.7em; letter-spacing: 0px;}
 }
 
@@ -25,32 +25,14 @@
 		padding-right: 0em;
 	}
 	#w { padding: 20px 15px; }
+	.topcontent{padding-top: 0;padding-bottom: 0;}
 /*	#skills-left, skills-right { width: 100%; }*/
 }
 
-@media only screen and (max-width: 570px) {
-	body {width: 95%; font-size: 45%;padding-top: 2em;}
-	h1 {font-size: 2.6em;}
-	#w { margin: 0 10px; }
-	h4 { margin-top: 2em; margin-bottom: 1em;}
-	ul li {
-		/*display: inline-block; */
-		margin-top: 0.5em;
-		padding-left: 1em; 
-		margin-right: 1em;
-		/*width: 80%; */
-		/*background-position: -5px 0px;*/
-		/*margin-right: 1em; */
-		line-height: 1.7em;
-	}
-}
+
+
 
 @media only screen and (max-width: 480px) {
-/*	ul li { width: 120px; }
-	#w { margin: 0 20px; }*/
-}
-
-@media only screen and (max-width: 380px) {
 	body {width: 95%; font-size: 45%;}
 	#w { margin: 5px 5px; 
 		padding: 10px 5px; }
