@@ -1,6 +1,7 @@
 * { margin: 0; padding: 0;  }
 
-html { height: 100%; background-color: #f9f9f9;
+html { height: 100%; background-color: #f2f2f2;
+margin: 0 auto;
 margin-top: 2em;
 margin-bottom: 10em;}
 body { 
@@ -69,7 +70,8 @@ a { color: #5582d6; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 /** @group core layout **/
-#w { margin: 2em 50px; 
+#w { 
+	margin: 2em 50px; 
 	padding: 20px 40px; 
 	padding-top: 35px; 
 	background: #fff; 
